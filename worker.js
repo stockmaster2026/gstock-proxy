@@ -5,6 +5,10 @@
 const ALLOWED_HOSTS = [
   "query1.finance.yahoo.com",
   "query2.finance.yahoo.com",
+  // 10/18 新增: 溫度計測試用 (Cboe 選擇權延遲報價、FINRA 賣空資料)
+  "cdn.cboe.com",
+  "cdn.finra.org",
+  "api.finra.org",
 ];
 
 const CORS_HEADERS = {
